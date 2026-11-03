@@ -49,7 +49,7 @@ Production-сборка создаётся в dist/. Относительные 
 - src/main.ts — интерфейс и обработка действий.
 - src/player.ts — проигрыватель по монотонным часам.
 - src/stories.ts — данные сценариев и сцен.
-- src/style.css — оформление, анимации и адаптивность.
+- src/style.css и src/refinements.css — оформление, анимации и адаптивность.
 - public/assets/ — изображения WebP.
 - public/fonts/ — локальные шрифты Montserrat и Manrope, лицензии SIL OFL.
 - tests/ — тесты проигрывателя и контента.

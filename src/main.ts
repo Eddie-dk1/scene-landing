@@ -1,4 +1,5 @@
 import "./style.css";
+import "./refinements.css";
 import { StoryPlayer, formatTime } from "./player.ts";
 import {
   stories,

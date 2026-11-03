@@ -105,6 +105,10 @@
               >Посмотреть историю <svg><use href="#play-icon" /></svg
             ></span>
           </a>
+          <div class="hero-side">
+            <svg class="scribble hero-arrow-one" viewBox="0 0 100 80" aria-hidden="true">
+              <path d="M12 12C62 4 90 32 72 66M65 50L72 66L88 58" />
+            </svg>
           <a
             class="paper hero-note"
             href="#studio"
@@ -115,23 +119,17 @@
             <strong>Показать<br />приложение<br />за 15 секунд.</strong>
             <svg class="sketch" aria-hidden="true"><use href="#sketch" /></svg>
           </a>
-          <svg
-            class="scribble hero-arrow-one"
-            viewBox="0 0 180 300"
-            preserveAspectRatio="none"
-            aria-hidden="true"
-          >
-            <path d="M20 18C170 33 177 175 110 270 M110 235L110 270L143 250" />
-          </svg>
-          <svg class="scribble hero-arrow-two" aria-hidden="true">
-            <use href="#curved-arrow" />
-          </svg>
+          </div>
         </div>
         <div class="hero-bottom">
           <p>От первой мысли до истории,<br />которую хочется досмотреть.</p>
-          <a class="button coral" href="#studio"
-            >Собрать свою историю <span aria-hidden="true">↗</span></a
-          >
+          <div class="hero-action">
+            <svg class="scribble hero-arrow-two" viewBox="0 0 80 70" aria-hidden="true">
+              <path d="M8 10C12 44 35 54 68 48M54 38L68 48L55 59" />
+            </svg>
+            <a class="button coral" href="#studio"
+              >Собрать свою историю <span aria-hidden="true">↗</span></a>
+          </div>
           <span class="hero-footnote">15 секунд. Три сцены. Твой ритм.</span>
         </div>
       </section>
@@ -160,12 +158,12 @@
             href="#studio"
             data-open="travel"
             aria-label="Посмотреть готовую историю"
-            ><img
+            ><span class="process-picture"><img
               src="/assets/travel-2.webp"
               alt="Коралловая лестница ведёт к синему морю"
               loading="lazy"
               width="1024"
-              height="1536" /><svg class="result-play" aria-hidden="true">
+              height="1536" /></span><svg class="result-play" aria-hidden="true">
               <use href="#play-icon" /></svg
           ></a>
           <svg class="scribble process-arrow-one" viewBox="0 0 100 60" aria-hidden="true">
@@ -211,7 +209,7 @@
                 >Идей много.<br />Начни с одной.</span
               ><svg class="poster-sketch sketch" aria-hidden="true">
                 <use href="#sketch" /></svg
-              ><span class="poster-underline" aria-hidden="true"></span>
+              ><span class="poster-underline" aria-hidden="true"></span><span class="example-play" aria-hidden="true"><svg><use href="#play-icon" /></svg></span>
             </div>
             <span class="example-link"
               >Открыть <span class="wide-label">сценарий</span>
@@ -231,7 +229,7 @@
                 width="1672"
                 height="941"
                 loading="lazy"
-              /><span class="example-caption">Выйди<br />за кадр.</span>
+              /><span class="example-caption">Выйди<br />за кадр.</span><span class="example-play" aria-hidden="true"><svg><use href="#play-icon" /></svg></span>
             </div>
             <span class="example-link"
               >Открыть <span class="wide-label">сценарий</span>
@@ -251,7 +249,7 @@
                 width="1024"
                 height="1536"
                 loading="lazy"
-              /><span class="example-caption">Начни<br />с движения.</span>
+              /><span class="example-caption">Начни<br />с движения.</span><span class="example-play" aria-hidden="true"><svg><use href="#play-icon" /></svg></span>
             </div>
             <span class="example-link"
               >Открыть <span class="wide-label">сценарий</span>
@@ -340,8 +338,8 @@
               >
             </div>
           </div>
-          <svg class="scribble studio-arrow" viewBox="0 0 100 60" aria-hidden="true">
-            <path d="M6 36Q50 5 90 30M76 20L92 30L77 38" />
+          <svg class="scribble studio-arrow" viewBox="0 0 160 100" aria-hidden="true">
+            <path d="M10 72C48 22 94 58 146 58M128 40L146 58L128 76" />
           </svg>
         </div>
         <div class="playback">
