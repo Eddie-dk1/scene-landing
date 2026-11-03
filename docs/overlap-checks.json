@@ -1,0 +1,110 @@
+[
+  {
+    "height": 568,
+    "horizontalOverflow": false,
+    "intersections": [],
+    "previewContained": true,
+    "previewRatio": 0.562524557956778,
+    "sectionOverflow": [],
+    "width": 320
+  },
+  {
+    "height": 667,
+    "horizontalOverflow": false,
+    "intersections": [],
+    "previewContained": true,
+    "previewRatio": 0.5625084334097963,
+    "sectionOverflow": [],
+    "width": 375
+  },
+  {
+    "height": 844,
+    "horizontalOverflow": false,
+    "intersections": [],
+    "previewContained": true,
+    "previewRatio": 0.5625055715686565,
+    "sectionOverflow": [],
+    "width": 390
+  },
+  {
+    "height": 625,
+    "horizontalOverflow": false,
+    "intersections": [],
+    "previewContained": true,
+    "previewRatio": 0.5625,
+    "sectionOverflow": [],
+    "width": 460
+  },
+  {
+    "height": 600,
+    "horizontalOverflow": false,
+    "intersections": [],
+    "previewContained": true,
+    "previewRatio": 0.5625184311412562,
+    "sectionOverflow": [],
+    "width": 600
+  },
+  {
+    "height": 625,
+    "horizontalOverflow": false,
+    "intersections": [],
+    "previewContained": true,
+    "previewRatio": 0.5625,
+    "sectionOverflow": [],
+    "width": 760
+  },
+  {
+    "height": 625,
+    "horizontalOverflow": false,
+    "intersections": [],
+    "previewContained": true,
+    "previewRatio": 0.5625080220767552,
+    "sectionOverflow": [],
+    "width": 800
+  },
+  {
+    "height": 600,
+    "horizontalOverflow": false,
+    "intersections": [],
+    "previewContained": true,
+    "previewRatio": 0.5625010496615891,
+    "sectionOverflow": [],
+    "width": 1024
+  },
+  {
+    "height": 625,
+    "horizontalOverflow": false,
+    "intersections": [],
+    "previewContained": true,
+    "previewRatio": 0.562501002518326,
+    "sectionOverflow": [],
+    "width": 1255
+  },
+  {
+    "height": 600,
+    "horizontalOverflow": false,
+    "intersections": [],
+    "previewContained": true,
+    "previewRatio": 0.5625010496615891,
+    "sectionOverflow": [],
+    "width": 1366
+  },
+  {
+    "height": 900,
+    "horizontalOverflow": false,
+    "intersections": [],
+    "previewContained": true,
+    "previewRatio": 0.5625053791204062,
+    "sectionOverflow": [],
+    "width": 1440
+  },
+  {
+    "height": 700,
+    "horizontalOverflow": false,
+    "intersections": [],
+    "previewContained": true,
+    "previewRatio": 0.5625053054525905,
+    "sectionOverflow": [],
+    "width": 1920
+  }
+]

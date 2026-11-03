@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2D4BFF" />
+    <meta
+      name="description"
+      content="SCENE — идея становится роликом. Собери свою историю из трёх сцен и найди её ритм в интерактивной видеостудии."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:title" content="SCENE — дай идее движение" />
+    <meta
+      property="og:description"
+      content="От первой мысли до истории, которую хочется досмотреть. Интерактивный концепт AI-видеостудии."
+    />
+    <link rel="canonical" href="https://eddie-dk1.github.io/scene-landing/" />
+    <meta property="og:url" content="https://eddie-dk1.github.io/scene-landing/" />
+    <meta property="og:image" content="https://eddie-dk1.github.io/scene-landing/assets/travel-1.webp" />
+    <meta name="twitter:image" content="https://eddie-dk1.github.io/scene-landing/assets/travel-1.webp" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link
+      rel="preload"
+      href="/fonts/manrope-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/manrope-cyrillic.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/montserrat-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/montserrat-cyrillic.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <title>SCENE — дай идее движение</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#studio">Перейти к видеостудии</a>
+    <svg class="svg-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs>
+        <symbol id="sketch" viewBox="0 0 260 115">
+          <path
+            d="M9 17Q9 8 18 9L239 6Q250 5 250 17L252 98Q252 105 242 106L20 111Q10 110 10 99Z M22 25L130 22L132 96L23 99Z M60 43L60 78L88 60Z M147 27L236 24 M147 42L225 39 M148 56L235 53 M149 72L169 71L169 91L149 92Z M181 71L201 70L201 90L181 91Z M213 69L235 68L235 88L214 89Z"
+          />
+        </symbol>
+        <symbol id="curved-arrow" viewBox="0 0 180 150">
+          <path d="M12 12C142 -4 181 66 124 131 M122 102L123 135L154 119" />
+        </symbol>
+        <symbol id="play-icon" viewBox="0 0 24 24">
+          <path d="M7 4L21 12L7 20Z" />
+        </symbol>
+      </defs>
+    </svg>
+    <main>
+      <section class="scene hero blue" id="top" aria-labelledby="hero-title">
+        <header class="header">
+          <a class="wordmark" href="#top" aria-label="SCENE — на главную"
+            >SCENE</a
+          >
+          <nav aria-label="Основная навигация">
+            <a href="#process">Процесс</a><a href="#examples">Примеры</a
+            ><a href="#studio">Попробовать <span aria-hidden="true">↗</span></a>
+          </nav>
+        </header>
+        <h1 class="hero-heading" id="hero-title">
+          <span>Дай идее</span
+          ><span>движение<span class="period">.</span></span>
+        </h1>
+        <div class="hero-stage">
+          <a
+            class="hero-film viewfinder"
+            href="#studio"
+            data-open="travel"
+            aria-label="Открыть историю о путешествии"
+          >
+            <img
+              src="/assets/travel-1.webp"
+              alt="Путешественница в коралловой куртке на белых скалах над синим морем"
+              width="1672"
+              height="941"
+              fetchpriority="high"
+            />
+            <span class="crop-guide" aria-hidden="true"></span>
+            <span class="film-track" aria-hidden="true"
+              ><i></i><span>00:05 / 00:15</span></span
+            >
+            <span class="film-hover" aria-hidden="true"
+              >Посмотреть историю <svg><use href="#play-icon" /></svg
+            ></span>
+          </a>
+          <a
+            class="paper hero-note"
+            href="#studio"
+            data-open="app"
+            aria-label="Показать приложение за 15 секунд — открыть сценарий"
+          >
+            <span class="paper-pins" aria-hidden="true">+<span>+</span></span>
+            <strong>Показать<br />приложение<br />за 15 секунд.</strong>
+            <svg class="sketch" aria-hidden="true"><use href="#sketch" /></svg>
+          </a>
+          <svg
+            class="scribble hero-arrow-one"
+            viewBox="0 0 180 300"
+            preserveAspectRatio="none"
+            aria-hidden="true"
+          >
+            <path d="M20 18C170 33 177 175 110 270 M110 235L110 270L143 250" />
+          </svg>
+          <svg class="scribble hero-arrow-two" aria-hidden="true">
+            <use href="#curved-arrow" />
+          </svg>
+        </div>
+        <div class="hero-bottom">
+          <p>От первой мысли до истории,<br />которую хочется досмотреть.</p>
+          <a class="button coral" href="#studio"
+            >Собрать свою историю <span aria-hidden="true">↗</span></a
+          >
+          <span class="hero-footnote">15 секунд. Три сцены. Твой ритм.</span>
+        </div>
+      </section>
+
+      <section
+        class="scene process cream"
+        id="process"
+        aria-labelledby="process-title"
+      >
+        <p class="eyebrow reveal">01 / Процесс</p>
+        <h2 class="section-heading reveal" id="process-title">
+          Мысль. Кадр.<br />История.
+        </h2>
+        <div class="process-diagram">
+          <div class="paper process-note reveal">
+            <strong>Показать<br />приложение<br />за 15 секунд.</strong
+            ><span class="drawn-lines" aria-hidden="true"></span>
+          </div>
+          <ol class="script-steps">
+            <li class="reveal"><span>01</span>Зацепить</li>
+            <li class="reveal"><span>02</span>Показать</li>
+            <li class="reveal"><span>03</span>Запомниться</li>
+          </ol>
+          <a
+            class="process-result viewfinder reveal"
+            href="#studio"
+            data-open="travel"
+            aria-label="Посмотреть готовую историю"
+            ><img
+              src="/assets/travel-2.webp"
+              alt="Коралловая лестница ведёт к синему морю"
+              loading="lazy"
+              width="1024"
+              height="1536" /><svg class="result-play" aria-hidden="true">
+              <use href="#play-icon" /></svg
+          ></a>
+          <svg class="scribble process-arrow-one" viewBox="0 0 100 60" aria-hidden="true">
+            <path d="M8 40C34 14 60 32 90 32M78 20L90 32L78 44" /></svg
+          ><svg class="scribble process-arrow-two" viewBox="0 0 100 60" aria-hidden="true">
+            <path d="M8 40C34 14 60 32 90 32M78 20L90 32L78 44" />
+          </svg>
+        </div>
+        <div class="process-bottom">
+          <p class="reveal">
+            Начни с одной идеи. Выбери сценарий.<br />Дай истории свой ритм.
+          </p>
+          <a class="text-link" href="#examples"
+            >Посмотреть примеры <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </section>
+
+      <section
+        class="scene examples blue"
+        id="examples"
+        aria-labelledby="examples-title"
+      >
+        <p class="eyebrow reveal">02 / Примеры</p>
+        <div class="examples-heading">
+          <h2 class="section-heading reveal" id="examples-title">
+            Одна идея.<br />Разный ритм.
+          </h2>
+          <p class="reveal">Выбери историю,<br />которую хочешь собрать.</p>
+          <span class="paper little-note reveal"
+            >3 сцены.<br />Одна история.</span
+          >
+        </div>
+        <div class="gallery">
+          <a
+            class="example"
+            href="#studio"
+            data-open="app"
+            aria-label="Открыть сценарий Приложение"
+            ><span class="example-category">Приложение</span>
+            <div class="example-art app-poster">
+              <span class="paper poster-note"
+                >Идей много.<br />Начни с одной.</span
+              ><svg class="poster-sketch sketch" aria-hidden="true">
+                <use href="#sketch" /></svg
+              ><span class="poster-underline" aria-hidden="true"></span>
+            </div>
+            <span class="example-link"
+              >Открыть <span class="wide-label">сценарий</span>
+              <span aria-hidden="true">↗</span></span
+            ><span class="example-duration">15 секунд</span></a
+          >
+          <a
+            class="example"
+            href="#studio"
+            data-open="travel"
+            aria-label="Открыть сценарий Путешествие"
+            ><span class="example-category">Путешествие</span>
+            <div class="example-art">
+              <img
+                src="/assets/travel-1.webp"
+                alt="История путешествия по белым скалам у моря"
+                width="1672"
+                height="941"
+                loading="lazy"
+              /><span class="example-caption">Выйди<br />за кадр.</span>
+            </div>
+            <span class="example-link"
+              >Открыть <span class="wide-label">сценарий</span>
+              <span aria-hidden="true">↗</span></span
+            ><span class="example-duration">15 секунд</span></a
+          >
+          <a
+            class="example"
+            href="#studio"
+            data-open="sport"
+            aria-label="Открыть сценарий Спорт"
+            ><span class="example-category">Спорт</span>
+            <div class="example-art">
+              <img
+                src="/assets/sport-2.webp"
+                alt="Спортсмен в синей форме бежит по стадиону"
+                width="1024"
+                height="1536"
+                loading="lazy"
+              /><span class="example-caption">Начни<br />с движения.</span>
+            </div>
+            <span class="example-link"
+              >Открыть <span class="wide-label">сценарий</span>
+              <span aria-hidden="true">↗</span></span
+            ><span class="example-duration">15 секунд</span></a
+          >
+        </div>
+      </section>
+
+      <section
+        class="scene studio cream"
+        id="studio"
+        aria-labelledby="studio-title"
+      >
+        <p class="eyebrow reveal">03 / Твоя SCENE</p>
+        <div class="studio-workspace">
+          <div class="studio-settings">
+            <h2 class="section-heading reveal" id="studio-title">
+              Твоя история.<br />Твой монтаж.
+            </h2>
+            <form id="studio-form">
+              <fieldset class="scenario-field">
+                <legend>Сценарий</legend>
+                <div class="choices">
+                  <label
+                    ><input
+                      type="radio"
+                      name="story"
+                      value="app"
+                      checked
+                    /><span>Приложение</span></label
+                  ><label
+                    ><input type="radio" name="story" value="travel" /><span
+                      >Путешествие</span
+                    ></label
+                  ><label
+                    ><input type="radio" name="story" value="sport" /><span
+                      >Спорт</span
+                    ></label
+                  >
+                </div>
+              </fieldset>
+              <fieldset class="style-field">
+                <legend>Характер</legend>
+                <div class="choices">
+                  <label
+                    ><input type="radio" name="style" value="calm" /><span
+                      >Спокойный</span
+                    ></label
+                  ><label
+                    ><input
+                      type="radio"
+                      name="style"
+                      value="dynamic"
+                      checked
+                    /><span>Динамичный</span></label
+                  >
+                </div>
+              </fieldset>
+            </form>
+            <ol
+              class="scene-list"
+              id="scene-list"
+              aria-label="Сцены выбранной истории"
+            ></ol>
+            <p class="demo-notice">
+              <span class="note-dot" aria-hidden="true"></span>Демо с заранее
+              подготовленными сценами.
+            </p>
+          </div>
+          <div class="preview-wrap">
+            <div
+              class="preview viewfinder"
+              id="preview"
+              data-style="dynamic"
+              data-status="idle"
+              aria-label="Превью истории Приложение"
+            >
+              <div id="preview-scenes"></div>
+              <span class="preview-bug" aria-hidden="true">SCENE</span
+              ><span
+                class="preview-scene-number"
+                id="preview-scene-number"
+                aria-hidden="true"
+                >01 / 03</span
+              >
+            </div>
+          </div>
+          <svg class="scribble studio-arrow" viewBox="0 0 100 60" aria-hidden="true">
+            <path d="M6 36Q50 5 90 30M76 20L92 30L77 38" />
+          </svg>
+        </div>
+        <div class="playback">
+          <button class="button blue-button" id="play-toggle" type="button">
+            <span>Воспроизвести</span
+            ><span id="play-symbol" aria-hidden="true">▶</span>
+          </button>
+          <div class="seek-wrap">
+            <label class="sr-only" for="seek">Положение воспроизведения</label
+            ><input
+              id="seek"
+              type="range"
+              min="0"
+              max="15"
+              step="0.01"
+              value="0"
+              aria-valuetext="0 секунд из 15"
+            />
+            <div class="seek-ticks" aria-hidden="true">
+              <span>00:00</span><span>00:05</span><span>00:10</span
+              ><span>00:15</span>
+            </div>
+          </div>
+          <output
+            class="timecode"
+            id="timecode"
+            role="timer"
+            aria-live="off"
+            aria-label="Время воспроизведения"
+            >00:00 / 00:15</output
+          >
+          <button
+            id="restart"
+            class="restart"
+            type="button"
+            aria-label="Вернуться к началу"
+          >
+            <span class="wide-label">Сначала</span>
+            <span aria-hidden="true">↺</span>
+          </button>
+        </div>
+        <p
+          class="sr-only"
+          id="player-status"
+          role="status"
+          aria-live="polite"
+        ></p>
+        <noscript
+          ><p>
+            Для интерактивного превью включи JavaScript. Примеры и описание
+            доступны без него.
+          </p></noscript
+        >
+      </section>
+
+      <section
+        class="scene closing blue"
+        id="closing"
+        aria-labelledby="closing-title"
+      >
+        <h2 class="section-heading reveal" id="closing-title">
+          Теперь<br />твоя история.
+        </h2>
+        <div class="closing-content">
+          <div class="closing-copy">
+            <p class="reveal">
+              Выбери сценарий, найди свой ритм<br />и посмотри, как оживает
+              история.
+            </p>
+            <a class="button coral" href="#studio"
+              >Собрать свою SCENE <span aria-hidden="true">↗</span></a
+            >
+          </div>
+          <div class="paper closing-note reveal">
+            <strong>Та самая идея.<br />Твой первый кадр.</strong
+            ><svg class="sketch" aria-hidden="true"><use href="#sketch" /></svg>
+          </div>
+          <svg class="scribble closing-arrow" viewBox="0 0 60 90" aria-hidden="true">
+            <path d="M12 8C52 12 54 64 12 72M24 57L12 72L30 79" />
+          </svg>
+        </div>
+        <footer class="footer">
+          <a class="wordmark" href="#top" aria-label="SCENE — наверх">SCENE</a>
+          <p>Тестовый концепт <span>/</span> Сделано с любовью</p>
+          <a href="#top">Наверх <span aria-hidden="true">↑</span></a>
+        </footer>
+      </section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
