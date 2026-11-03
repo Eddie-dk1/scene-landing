@@ -56,7 +56,7 @@ npm run preview
 
 Фотографии и бумажная фактура сгенерированы, сжаты в WebP и хранятся в public/assets/. Montserrat и Manrope с кириллицей хранятся локально; лицензии SIL OFL лежат в public/fonts/. Текст, заметки, стрелки, направляющие и интерфейс — отдельные HTML/CSS/SVG-элементы.
 
-Результаты проверки — docs/qa.md, скриншоты — docs/screenshots/. Текст для работодателя и два ключевых промпта — docs/submission.md.
+Результаты проверки — docs/qa.md, скриншоты — docs/screenshots/.
 
 ## Публикация
 
